@@ -34,13 +34,13 @@
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/your-username/cloudflare-dns-delete.git
-   cd cloudflare-dns-delete
+   git clone https://github.com/lianlianlianlianlianlian/cloudflarednsdelete.git
+   cd cloudflarednsdelete
    ```
 
 2. 赋予脚本可执行权限：
    ```bash
-   chmod +x delete_dns_records.sh
+   chmod +x delete.sh
    ```
 
 ---
@@ -62,7 +62,7 @@ DOMAIN="yourdomain.com" # 要删除 DNS 记录的域名
 运行以下命令执行脚本：
 
 ```bash
-./delete_dns_records.sh
+./delete.sh
 ```
 
 ### 脚本流程：
